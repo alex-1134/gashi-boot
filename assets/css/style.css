@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+/*...............................GRID*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2%;
+    margin-bottom: auto;
+}
+
+.grid-item-1 {
+
+    height: 50px;
+
+}
+
+.grid-item-2 {
+
+    height: 50px;
+}
+
+.grid-item-3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.grid-item-4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/*................................................NAVIGATION*/
+
+#menu {
+    font-size: 100%;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+#menu li {
+    float: right;
+    margin-right: 20px;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#menu a:hover {
+    border-bottom: 1px solid black;
+}
+
+
+/*.................................FOOTER*/
+
+
+footer {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.foot li {
+    color: #4c4c4c;
+    display: inline-block;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.foot a {
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+.foot i {
+    font-size: 100%;
+}
