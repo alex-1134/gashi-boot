@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FBE8DF;
+}
+
 
 /*...............................GRID*/
 
@@ -14,26 +20,46 @@
 }
 
 .grid-item-1 {
-
     height: 50px;
-
 }
 
 .grid-item-2 {
-
     height: 50px;
 }
 
 .grid-item-3 {
     grid-column-start: 1;
     grid-column-end: 3;
-
 }
+
 
 .grid-item-4 {
     grid-column-start: 1;
     grid-column-end: 3;
 }
+
+.gashi-logo {
+    align-self: center;
+}
+
+
+/*.................................................GRID-TOUR*/
+
+.grid-container-tour {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2%;
+    margin-bottom: auto;
+}
+
+.grid-item-3-tour {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
 
 /*................................................NAVIGATION*/
 
@@ -46,13 +72,11 @@
 #menu li {
     float: right;
     margin-right: 20px;
-
 }
 
 #menu a {
     text-decoration: none;
     color: black;
-
 }
 
 #menu a:hover {
