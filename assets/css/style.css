@@ -4,60 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FBE8DF;
-}
-
-
-/*...............................GRID*/
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: auto;
-    justify-content: center;
-    align-content: center;
-    margin-top: 2%;
-    margin-bottom: auto;
-}
-
-.grid-item-1 {
-    height: 50px;
-}
-
-.grid-item-2 {
-    height: 50px;
-}
-
-.grid-item-3 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-
-.grid-item-4 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.gashi-logo {
-    align-self: center;
-}
-
-
-/*.................................................GRID-TOUR*/
-
-.grid-container-tour {
-    display: grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: auto;
-    justify-content: center;
-    align-content: center;
-    margin-top: 2%;
-    margin-bottom: auto;
-}
-
-.grid-item-3-tour {
-    grid-column-start: 1;
-    grid-column-end: 3;
+    color: darkslategrey
 }
 
 
@@ -80,11 +27,42 @@ body {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid darkslategrey;
 }
 
 
-/*.................................FOOTER*/
+/*.................................CIRCLE IMAGE*/
+
+#gashi {
+    background: url("/assets/images/gashi.jpg") no-repeat center center;
+    height: 500px;
+    width: 100%;
+
+    animation-name: gashi-zoom;
+    animation-fill-mode: forwards;
+    animation-duration: 4s;
+}
+
+#gashi-outer {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes gashi-zoom {
+
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+/*.......................................FOOTER*/
 
 
 footer {
