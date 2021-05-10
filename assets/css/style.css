@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed:wght@700&display=swap');
+
 
 body {
     margin: 0;
@@ -10,30 +12,41 @@ body {
 
 /*................................................HEADER*/
 
+#header {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+
 #menu {
-    font-size: 100%;
     list-style-type: none;
     text-transform: uppercase;
+    margin-right: 100px;
 }
 
 #menu li {
     float: right;
-    margin-right: 20px;
 }
 
 #menu a {
     text-decoration: none;
     color: darkslategrey;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
 }
 
 #menu a:hover {
     border-bottom: 1px solid darkslategrey;
 }
 
+
 .logo {
     text-align: center;
     float: left;
+    margin-left: 100px;
 }
 
 #menu,
@@ -41,13 +54,16 @@ body {
     line-height: 100px;
 }
 
+
+
 /*.................................CIRCLE IMAGE*/
 
 #gashi {
     background: url("/assets/images/gashigashi.jpg") no-repeat center center;
     height: 480px;
+    width: 480px;
     border-radius: 50%;
-
+    margin-top: 130px;
 
     animation-name: gashi-zoom;
     animation-fill-mode: forwards;
@@ -55,10 +71,11 @@ body {
 }
 
 #gashi-outer {
-    height: 600px;
+
     width: 100%;
     position: relative;
     overflow: hidden;
+    text-align: center;
 }
 
 @keyframes gashi-zoom {
@@ -84,7 +101,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 3px;
 
-    width: 350px;
+    width: 250px;
     height: 200px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -93,7 +110,7 @@ body {
     position: fixed;
 
     bottom: 20px;
-    right: 90px;
+    right: 100px;
 }
 
 span {
@@ -108,10 +125,11 @@ span {
     vertical-align: center;
     background-color: rgba(155, 161, 164, 0.6);
     padding: 40px 0;
+    margin-top: 150px;
     list-style: none;
     color: white;
 
-    height: 600px;
+    height: 500px;
 }
 
 .shows p {
@@ -119,7 +137,6 @@ span {
     font-size: 130%;
     font-weight: bolder;
     color: white;
-
 }
 
 
@@ -130,7 +147,6 @@ footer {
     height: 100px;
     width: 100%;
     text-align: center;
-
 }
 
 
