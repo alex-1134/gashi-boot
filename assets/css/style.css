@@ -4,11 +4,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FBE8DF;
-    color: darkslategrey
+    color: darkslategrey;
+    background-color: red;
 }
 
 
-/*................................................NAVIGATION*/
+/*................................................HEADER*/
 
 #menu {
     font-size: 100%;
@@ -23,20 +24,31 @@ body {
 
 #menu a {
     text-decoration: none;
-    color: black;
+    color: darkslategrey;
+    letter-spacing: 3px;
 }
 
 #menu a:hover {
     border-bottom: 1px solid darkslategrey;
 }
 
+.logo {
+    text-align: center;
+    float: left;
+}
+
+#menu,
+.logo {
+    line-height: 100px;
+}
 
 /*.................................CIRCLE IMAGE*/
 
 #gashi {
-    background: url("/assets/images/gashi.jpg") no-repeat center center;
+    background: url("/assets/images/gashigashi.jpg") no-repeat center center;
     height: 500px;
     width: 100%;
+    border-radius: 50%;
 
     animation-name: gashi-zoom;
     animation-fill-mode: forwards;
@@ -61,6 +73,30 @@ body {
     }
 }
 
+
+
+
+/*..................................ALBUM COVER*/
+
+#album-cover {
+    background-color: rgba(223, 97, 100, 0.1);
+
+    font-size: 140%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    width: 350px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 20px;
+
+    position: asolute;
+
+    bottom: 20px;
+    right: 200px;
+
+
+}
 
 /*.......................................FOOTER*/
 
