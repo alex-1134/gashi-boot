@@ -5,7 +5,6 @@ body {
     padding: 0;
     background-color: #FBE8DF;
     color: darkslategrey;
-    background-color: red;
 }
 
 
@@ -45,8 +44,8 @@ body {
 /*.................................CIRCLE IMAGE*/
 
 #gashi {
-    background: url("/assets/images/gashigashi.jpg") no-repeat center center;
-    height: 500px;
+    background: url("/assets/images/gash-page.jpg") no-repeat center center;
+    height: 480px;
     width: 100%;
     border-radius: 50%;
 
@@ -56,7 +55,7 @@ body {
 }
 
 #gashi-outer {
-    height: 500px;
+    height: 480px;
     width: 100%;
     position: relative;
     overflow: hidden;
