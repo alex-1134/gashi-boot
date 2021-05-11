@@ -64,34 +64,10 @@ body {
 }
 
 
-/*.................................CIRCLE IMAGE*/
+/*.................................BACKGROUND*/
 
 #gashi {
-    background: url("/assets/images/gashigashi.jpg") no-repeat center center;
-    height: 480px;
-    width: 480px;
-    border-radius: 50%;
-    margin-top: 130px;
-
-    animation-name: gashi-zoom;
-    animation-fill-mode: forwards;
-    animation-duration: 4s;
-}
-
-#gashi-outer {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-}
-
-@keyframes gashi-zoom {
-    from {
-        transform: scale(0);
-    }
-
-    to {
-        transform: scale(1);
-    }
+    background: url("/assets/images/live2.jpg") no-repeat center center;
 }
 
 
@@ -126,9 +102,10 @@ span {
 /*.........................................TOUR*/
 
 #tour {
+    width: 100%;
     text-align: center;
-    vertical-align: center;
-    background-color: rgba(155, 161, 164, 0.6);
+    background: url("/assets/images/live.png") no-repeat center center;
+    opacity: 0.3;
     padding: 40px 0;
     margin-top: 150px;
     list-style: none;
@@ -137,12 +114,7 @@ span {
     height: 500px;
 }
 
-.shows p {
-    text-transform: uppercase;
-    font-size: 130%;
-    font-weight: bolder;
-    color: white;
-}
+
 
 
 
@@ -190,9 +162,4 @@ footer {
 
 .foot i {
     font-size: 100%;
-}
-
-@media screen and (max-width: 1396px) {
-
-    dd
 }

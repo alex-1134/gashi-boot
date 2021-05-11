@@ -137,12 +137,6 @@ span {
     height: 500px;
 }
 
-.shows p {
-    text-transform: uppercase;
-    font-size: 130%;
-    font-weight: bolder;
-    color: white;
-}
 
 
 
@@ -190,9 +184,4 @@ footer {
 
 .foot i {
     font-size: 100%;
-}
-
-@media screen and (max-width: 1396px) {
-
-    dd
 }
